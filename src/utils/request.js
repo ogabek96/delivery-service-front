@@ -1,7 +1,7 @@
 import axios from 'axios'
 import { getToken } from './token';
 const service = axios.create({
-  baseURL: 'http://localhost:3000/',
+  baseURL: 'https://delivery-service-back.herokuapp.com/',
   timeout: 2000
 });
 
